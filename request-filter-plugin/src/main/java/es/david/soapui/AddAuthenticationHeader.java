@@ -12,7 +12,7 @@ import com.eviware.soapui.support.types.StringToStringsMap;
 public class AddAuthenticationHeader extends AbstractSoapUIAction<RestMethod> {
 	
 	public static final String AUTHORIZATION_HEADER = "Authorization";
-	public static final String AUTHORIZATION_HEADER_VALUE = "Bearer ${Login#token}";
+	public static final String AUTHORIZATION_HEADER_VALUE = "Bearer ${Project#token}";
 
 	public AddAuthenticationHeader() {
 	    super("Add Auth Header", "Add auth header to request");

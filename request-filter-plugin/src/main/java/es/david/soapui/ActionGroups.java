@@ -70,7 +70,7 @@ public class ActionGroups {
      * Actions applied to REST requests.
      * Have your action class extend AbstractSoapUIAction<RestRequest>.
      */
-    public static final String REST_REQUEST_ACTIONS = "RestMethodActions";
+    public static final String REST_REQUEST_ACTIONS = "RestRequestActions";
 
     /*
      * Actions applied to SOAP operations.
