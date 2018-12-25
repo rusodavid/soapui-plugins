@@ -68,7 +68,7 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.0.2</version>
 				<configuration>
-					<outputDirectory>/Users/lucas/.soapuios/plugins</outputDirectory>
+					<outputDirectory>C:\Sanitas\Datos_PC\Documentacion\SOAP-UI-Projects\.soapuios\plugins</outputDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
